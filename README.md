@@ -11,11 +11,11 @@ An IoT application build to automate the manual checking if a rubbish bin is alr
 ### System Architecture
 
 ### Hardware
-<strong>ESP 8266
+<strong>ESP 8266</strong>
 
 <img src="Images/esp8266.png" width="173" height="308">
 
-<strong>HC-SR04
+<strong>HC-SR04</strong>
 
 <img src="Images/hc_sr04.jpg" width="256" height="197">
 

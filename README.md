@@ -4,7 +4,7 @@ An IoT project fo SKEL 4213 on waste management system using ESP 8266 with HC-SR
 ### Problem Statement
 *The availability of garbage bins spaces are always  unavailable during the weekend at the college. This is beacuse of the cleaners are not working duirng the weekends and this leads to accumulated of rubbish that are not collected. Because of this, the residents do not know where to throw their rubbish and end up leaving it outside of the overflowing rubbish bin.*
 
-<strong><ins>Our Solution</ins>
+<strong><ins>Our Solution</ins><br>
 
 An IoT application build to automate the manual checking if a rubbish bin is already full or not, and pass the information to a dashboard where users could locate any available bins that are available.
 

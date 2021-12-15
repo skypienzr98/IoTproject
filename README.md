@@ -7,7 +7,7 @@ An IoT project fo SKEL 4213 on waste management system using ESP 8266 with HC-SR
 ### System Architecture
 
 ### Hardware
-<img src="Images/esp8266.png" width="173" height="308"><img src="Images/hc_sr04.jpg">
+<img src="Images/esp8266.png" width="173" height="308"><img src="Images/hc_sr04.jpg" width="256" height="197">
 <strong>ESP 8266
 
 

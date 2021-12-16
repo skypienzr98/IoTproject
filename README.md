@@ -29,3 +29,9 @@ Below are the general overview of the system architecture for our IoT waste mana
 ### Cloud Platform
 
 ### Dashboard
+
+<img src="Images/1. Sign In Page.png">
+<img src="Images/2. Sign Up Page.png">
+<img src="Images/3. Select College Page.png">
+<img src="Images/4. Select Block Page.png">
+<img src="Images/5. Status Page.png">

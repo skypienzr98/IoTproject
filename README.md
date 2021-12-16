@@ -30,8 +30,8 @@ Below are the general overview of the system architecture for our IoT waste mana
 
 ### Dashboard
 
-<img src="Images/1. Sign In Page.png" width="960" height="540">
-<img src="Images/2. Sign Up Page.png" width="960" height="540">
-<img src="Images/3. Select College Page.png" width="960" height="540">
-<img src="Images/4. Select Block Page.png" width="960" height="540">
-<img src="Images/5. Status Page.png" width="960" height="540">
+<img src="Images/1. Sign In Page.png" width="384" height="216">
+<img src="Images/2. Sign Up Page.png" width="384" height="216">
+<img src="Images/3. Select College Page.png" width="384" height="216">
+<img src="Images/4. Select Block Page.png" width="384" height="216">
+<img src="Images/5. Status Page.png" width="384" height="216">

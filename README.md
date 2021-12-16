@@ -11,12 +11,7 @@ An IoT application to automate the manual checking rubbish bins that is already 
 
 ### System Architecture
 
-<div style="text-align: justify"> 
-
-Below are the general overview of the system architecture for our IoT waste management system. For this project we will be using ESP 8266 as our microcontroller device and it will be connected to HC-SR04 ultrasonic sensor to obtain the capacity level of rubbish bins. The device will communicate using MQTT data protocol transmission and it will send the data to Moquitto broker as the main MQTT broker then to Heroku Cloud platform and finally update the data on our simple dashboard app which we will be using Figma. 
-
-</div>
-
+Below are the general overview of the system architecture for our IoT waste management system. For this project we will be using **ESP 8266** as our microcontroller device and it will be connected to HC-SR04 ultrasonic sensor to obtain the capacity level of rubbish bins. The device will communicate using MQTT data protocol transmission and it will send the data to Moquitto broker as the main MQTT broker then to Heroku Cloud platform and finally update the data on our simple dashboard app which we will be build using Figma. 
 
 <img src="Images/system_arc.png">
 
@@ -27,11 +22,9 @@ Below are the general overview of the system architecture for our IoT waste mana
 
 <strong>HC-SR04</strong>
 
-<p align="center">
 
 <img src="Images/hc_sr04.jpg" width="256" height="197">
 
-</p>
 
 ### Cloud Platform
 

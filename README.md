@@ -2,13 +2,15 @@
 An IoT project for SKEL 4213 on waste management system using ESP 8266 with HC-SR04 ultrasonic sensor to obtain the required data.
 ## IoT Waste Management System 🗑️ 
 ### Problem Statement
-*The availability of garbage bins spaces are always  unavailable during the weekend at the college. This is beacuse of the cleaners are not working duirng the weekends and this leads to accumulated of rubbish that are not collected. Because of this, the residents do not know where to throw their rubbish and end up leaving it outside of the overflowing rubbish bin.*
+*The availability of garbage bins spaces are always unavailable during the weekend at the college. This is beacuse of the cleaners are not working during the weekends and this leads to accumulated of rubbish that are not collected. Because of this, the residents do not know where to throw their rubbish and end up leaving it outside of the overflowing rubbish bin.*
 
 <strong><ins>Our Solution</ins></strong>
 
-An IoT application build to automate the manual checking if a rubbish bin is already full or not, and pass the information to a dashboard where users could locate any available bins that are available.
+An IoT application to automate the manual checking rubbish bins that is already full or not, and pass the information to a dashboard where users could locate any available bins that are available.
 
 ### System Architecture
+
+Below are the general overview of the system architecture for our IoT waste management system. For this project we will be using ESP 8266 as our microcontroller device and it will be connected to HC-SR04 ultrasonic sensor to obtain the capacity level of rubbish bins. The device will communicate using MQTT data protocol transmission and it will send the data to Moquitto broker as the main MQTT broker then to Heroku Cloud platform and finally update the data on our simple dashboard app which we will be using Figma.
 
 <img src="Images/system_arc.png">
 

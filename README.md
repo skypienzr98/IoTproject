@@ -3,7 +3,12 @@ An IoT project for SKEL 4213 on waste management system using ESP 8266 with HC-S
 ## IoT Waste Management System 🗑️ 
 ### Problem Statement
 
-<div style="text-align: justify"> *The availability of garbage bins spaces are always unavailable during the weekend at the college. This is beacuse of the cleaners are not working during the weekends and this leads to accumulated of rubbish that are not collected. Because of this, the residents do not know where to throw their rubbish and end up leaving it outside of the overflowing rubbish bin.* </div>
+<div style="text-align: justify"> 
+
+*The availability of garbage bins spaces are always unavailable during the weekend at the college. This is beacuse of the cleaners are not working during the weekends and this leads to accumulated of rubbish that are not collected. Because of this, the residents do not know where to throw their rubbish and end up leaving it outside of the overflowing rubbish bin.* 
+
+</div>
+
 
 <strong><ins>Our Solution</ins></strong>
 
@@ -11,7 +16,11 @@ An IoT application to automate the manual checking rubbish bins that is already 
 
 ### System Architecture
 
-<div style="text-align: justify"> Below are the general overview of the system architecture for our IoT waste management system. For this project we will be using ESP 8266 as our microcontroller device and it will be connected to HC-SR04 ultrasonic sensor to obtain the capacity level of rubbish bins. The device will communicate using MQTT data protocol transmission and it will send the data to Moquitto broker as the main MQTT broker then to Heroku Cloud platform and finally update the data on our simple dashboard app which we will be using Figma. </div>
+<div style="text-align: justify"> 
+
+Below are the general overview of the system architecture for our IoT waste management system. For this project we will be using ESP 8266 as our microcontroller device and it will be connected to HC-SR04 ultrasonic sensor to obtain the capacity level of rubbish bins. The device will communicate using MQTT data protocol transmission and it will send the data to Moquitto broker as the main MQTT broker then to Heroku Cloud platform and finally update the data on our simple dashboard app which we will be using Figma. 
+
+</div>
 
 
 <img src="Images/system_arc.png">

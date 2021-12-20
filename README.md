@@ -16,7 +16,7 @@ Below are the general overview of the system architecture for our IoT waste mana
 <img src="Images/system_arc.png">
 
 ### Hardware
-#### ESP 8266
+<strong><ins>ESP 8266</ins></strong>
 
 <img src="Images/esp8266.png" width="173" height="308">
 

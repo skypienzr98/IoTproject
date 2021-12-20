@@ -11,7 +11,9 @@ An IoT application to automate the manual checking rubbish bins that is already 
 
 ### Use Case Diagram
 
+<p align="center">
 <img src="Images/case_diagram.png">
+</p>
 
 ### System Architecture
 

@@ -28,6 +28,7 @@ Below are the general overview of the system architecture for our IoT waste mana
 
 <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/ESP8266-Ultrasonic-Sensor-Wiring-Fritzing-Diagram.png?w=738&quality=100&strip=all&ssl=1" width="318" height="258">
 
+<strong>CODE SAMPLE</strong>
 
 ### Cloud Platform
 

@@ -9,7 +9,7 @@ An IoT project for SKEL 4213 on waste management system using ESP 8266 with HC-S
 
 An IoT application to automate the manual checking rubbish bins that is already full or not, and pass the information to a dashboard where users could locate any available bins that are available.
 
-### Use Case Diagram
+<strong><ins>Use Case Diagram</ins></strong>
 
 <p align="center">
 <img src="Images/case_diagram.png">

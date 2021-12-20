@@ -30,6 +30,11 @@ Below are the general overview of the system architecture for our IoT waste mana
 
 <strong>CODE SAMPLE</strong>
 
+<details>
+  <summary>Click to expand!</summary>
+</details>
+
+
 ### Cloud Platform
 
 ### Dashboard

@@ -25,6 +25,8 @@ Below are the general overview of the system architecture for our IoT waste mana
 
 <img src="Images/hc_sr04.jpg" width="256" height="197">
 
+<img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/ESP32-Ultrasonic-Sensor-Wiring-Fritzing-Diagram.png?w=846&quality=100&strip=all&ssl=1">
+
 
 ### Cloud Platform
 

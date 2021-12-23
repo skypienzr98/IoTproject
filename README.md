@@ -83,6 +83,8 @@ void loop() {
 
 ### Cloud Platform
 
+The following [video](https://youtu.be/mI5fn9AS04o) shows the process on how to deploy an application using Heroku. This is the [link](https://iot-waste-v2.herokuapp.com/) to the website in the video.
+ 
 ### Dashboard
 
 <p align="center">

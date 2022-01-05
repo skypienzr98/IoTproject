@@ -21,27 +21,21 @@ def home():
     global capLevel
     global clcount
 
-    # For POST requests, show the data
     if request.method == 'POST':
-        clcount += 1
-        # app.logger.info(request.form)  
+        clcount += 1 
         capLevel = int(request.form.get('capacity'))
         print()
         return render_template('base.html')
     
-    # For GET requests, show the global capLevel variable value passed to template
-    # app.logger.info("During GET request, capLevel=" + str(capLevel)) 
     print()
     return render_template('base.html')
 
 @app.context_processor
 def injectSensorData():
     global capLevel
-    # app.logger.info("injectSensorData ran. Pass capLevel = " + str(capLevel))
     return dict(capLevel = int(capLevel))
 
 
-# Background updater thread that runs before 1st client connects
 @app.before_first_request
 def before_first_request():
     threading.Thread(target=update_sensor_data).start()
@@ -58,5 +52,5 @@ def update_sensor_data():
             turbo.push(turbo.replace(render_template('base.html'), 'base'))
 
 if __name__ == '__main__':
-    port = os.environ.get("PORT", 5000)              # Get port number of env at runtime, else use default port 5000
-    app.run(debug=False, host='0.0.0.0', port=port)  # 0.0.0.0 port forwarding resolves the host IP address at runtime
+    port = os.environ.get("PORT", 5000)              
+    app.run(debug=False, host='0.0.0.0', port=port)  

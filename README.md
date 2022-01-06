@@ -98,6 +98,6 @@ The following [video](https://youtu.be/mI5fn9AS04o) shows the process on how to 
 </p>
 
 
-### Milestone 3
+## MILESTONE 3
 
-The following [video](https://youtu.be/7Tu39UT9mWg) shows the process on how we send data from our device to our web server using http protocol. This is the [link](https://sampah-app.herokuapp.com/) to the our web server hosted by Herokuwebsite in the video.
+The following [video](https://youtu.be/7Tu39UT9mWg) shows the process on how we send data from our device to our web server using http protocol. This is the [link](https://sampah-app.herokuapp.com/) to the our web server hosted by Heroku as shown in the video.

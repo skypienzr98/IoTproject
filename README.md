@@ -90,7 +90,7 @@ The following [video](https://youtu.be/mI5fn9AS04o) shows the process on how to 
 <p align="center">
 
 <img src="Images/login page.png" >
-<img src="dash.png" >
+<img src="Images/dash.png" >
 
 
 </p>

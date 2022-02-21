@@ -101,3 +101,7 @@ The following [video](https://youtu.be/mI5fn9AS04o) shows the process on how to 
 ## MILESTONE 3
 
 The following [video](https://youtu.be/7Tu39UT9mWg) shows the process on how we send data from our device to our web server using http protocol. This is the [link](https://sampah-app.herokuapp.com/) to the our web server hosted by Heroku as shown in the video.
+
+## MILESTONE 4
+
+The following [video](https://youtu.be/7Tu39UT9mWg) shows the process on how we save the data from our IoT device to a dashboard and visualize the data on a dashboard. The database that we used for our porject is PostgreSQL due to its simplicity to deploy with  heroku. Grafana was used for the visualization of the data in the database as shown in the video. 

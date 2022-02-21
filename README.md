@@ -89,11 +89,9 @@ The following [video](https://youtu.be/mI5fn9AS04o) shows the process on how to 
 
 <p align="center">
 
-<img src="Images/1. Sign In Page.png" width="227" height="465">
-<img src="Images/2. Sign Up Page.png" width="227" height="465">
-<img src="Images/3. Select College Page.png" width="227" height="465">
-<img src="Images/4. Select Block Page.png" width="227" height="465">
-<img src="Images/5. Status Page.png" width="227" height="465">
+<img src="Images/login page.png" >
+<img src="dash.png" >
+
 
 </p>
 

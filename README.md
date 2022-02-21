@@ -117,4 +117,10 @@ The following [video](https://youtu.be/rmHrgsxgMzo) shows the explanation in det
 ## Steps on clonning the project
 
 1. Git clone the repository to your desired location in your local machine.
-2. Open the cloned repo with any IDE (e.g. VS Code)
+2. Open the cloned repo with any IDE (e.g. VS Code) or can use terminal but make sure the cloned file is in the same path you are in at the moment.
+3. Execute the codes below for making a new virtual environment and install all the required dependecies. 
+
+ ```
+  pipenv shell
+  pipenv install requirements.txt
+```

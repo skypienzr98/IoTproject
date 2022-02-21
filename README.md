@@ -105,3 +105,11 @@ The following [video](https://youtu.be/7Tu39UT9mWg) shows the process on how we 
 ## MILESTONE 4
 
 The following [video](https://youtu.be/7Tu39UT9mWg) shows the process on how we save the data from our IoT device to a dashboard and visualize the data on a dashboard. The database that we used for our porject is PostgreSQL due to its simplicity to deploy with  heroku. Grafana was used for the visualization of the data in the database as shown in the video. 
+
+## MILESTONE 5
+
+The following [video](https://youtu.be/7Tu39UT9mWg) shows the explanation in detail about milestone 5 which is the UI Improvement. The layout of the improve UI has being change slightly appopriate to the comments of the app user. The changes includes a time-series graph and more sophisicated real-time data refresh. The user comments are as below:
+
+- app too simple and bland
+- need to know specific time the rubbish can is full
+- the app keeps refreshing making it too buggy

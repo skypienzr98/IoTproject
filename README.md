@@ -124,3 +124,9 @@ The following [video](https://youtu.be/rmHrgsxgMzo) shows the explanation in det
   pipenv shell
   pipenv install requirements.txt
 ```
+
+4. After done execute the above lines inside the terminal, the application are ready to be deploy with Heroku. Before deploy, you can test with your local machine.
+5. Before testing with local machine, make sure to install PostgreSQL in local machine which can be found in this [link]((https://www.postgresqltutorial.com/install-postgresql-linux/)
+
+6. Once done installing, need to change [Your Password] and [database name] as shown in figure below
+<img src="Images/edit1.png" >

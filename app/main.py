@@ -25,8 +25,15 @@ capLevel = 0
 turbocount = 0
 clcount = 0
 
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://qaauaxtosvtcxc:b0029591cf5c7893d9f01d997c0b2210932aaba7a64459e5e08e08be57f7efcc@ec2-54-83-21-198.compute-1.amazonaws.com:5432/d1vhc63t8ojb7o'
+# CHANGE to 'dev' when developing locally, 'prod' when deploying
+ENV = 'dev'
+if ENV == 'dev':
+    app.debug = True
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:[Your Password]@localhost/[database name]'
+else:
+    app.debug = False
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://qaauaxtosvtcxc:b0029591cf5c7893d9f01d997c0b2210932aaba7a64459e5e08e08be57f7efcc@ec2-54-83-21-198.compute-1.amazonaws.com:5432/d1vhc63t8ojb7o'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 

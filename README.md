@@ -224,4 +224,22 @@ void loop() {
   ```
 </details>
 
-8. 
+8. To deploy the app with heroku, need to run the codes below first inside terminal until you get the database URI hosted by Heroku.
+
+```
+  sudo snap install --classic heroku
+  git init
+  heroku login
+  heroku create smart-sampah
+  heroku addons:create heroku-postgresql:hobby-dev --app smart-sampah
+  heroku config --app smart-sampah
+```
+9. Once got the database URI, copy it and change the database URI in main.py and don't forget to change ENV from dev to prod. 
+
+10. After that run few codes below to deploy the app
+```
+  git add .
+  git commit -m 'Inital Deploy'
+  heroku git:remote -a smart-sampah
+  git push heroku master
+```
